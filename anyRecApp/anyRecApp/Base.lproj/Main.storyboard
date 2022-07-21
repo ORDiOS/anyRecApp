@@ -103,6 +103,9 @@
                                                                 <integer key="value" value="8"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="pauseRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="js2-Bs-sIP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evm-kZ-pcM" userLabel="Play">
                                                         <rect key="frame" x="136" y="0.0" width="126" height="40"/>
@@ -116,6 +119,9 @@
                                                                 <integer key="value" value="8"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3uz-RO-PUr"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3X-gL-jyp" userLabel="Stop">
                                                         <rect key="frame" x="272" y="0.0" width="126" height="40"/>
@@ -129,6 +135,9 @@
                                                                 <integer key="value" value="8"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="stopPlayRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cb-WP-e6s"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
